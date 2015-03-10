@@ -89,7 +89,7 @@ struct FormatAttribute {
     }
 
     func fill(s: String) -> String {
-        let w = countElements(s) // XXX: should use visual width?
+        let w = count(s) // XXX: should use visual width?
 
         if hasLeftJustifyFlag {
             // use a space for filling in left-jusitfy mode
